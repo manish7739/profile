@@ -59,7 +59,9 @@
       </v-col>
     </v-row>
     <div class="ml-10 mt-10">
-      <v-btn class="amber darken-4" rounded>Download CV</v-btn>
+      <v-btn class="amber darken-4" rounded href="/resume.pdf" target="_blank"
+        >Download CV</v-btn
+      >
       <v-btn class="amber darken-4 ml-5" rounded>Hire me</v-btn>
     </div>
   </div>

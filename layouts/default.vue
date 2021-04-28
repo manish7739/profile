@@ -116,17 +116,7 @@ export default {
           icon: "mdi-account",
           title: "Contact",
           to: "/contact"
-        },
-        {
-          icon: "mdi-account",
-          title: "Login",
-          to: "/login"
         }
-        // {
-        //   icon: "mdi-account",
-        //   title: "Responce",
-        //   to: "/backenpage"
-        // }
       ], // array for Navigation drawer list end
       // array for vertical dot start
       subMenu: [

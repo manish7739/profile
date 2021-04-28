@@ -1,14 +1,12 @@
 <template>
   <div>
-    <login />
+    <h1 class="text-center mt-5">Chat Box Coming Soon</h1>
   </div>
 </template>
 
 <script>
-import login from "~/components/login.vue";
 export default {
-  components: { login },
-  name: "Login"
+  name: "Chat"
 };
 </script>
 

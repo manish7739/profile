@@ -66,6 +66,8 @@
         label="Message"
       ></v-textarea>
       <v-btn rounded class="red" @click="contactme()">Send Messsage</v-btn>
+
+      <v-btn rounded class="red " to="/chat"> Chat</v-btn>
     </div>
   </div>
 </template>
