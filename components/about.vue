@@ -62,7 +62,7 @@
       <v-btn class="amber darken-4" rounded href="/resume.pdf" target="_blank"
         >Download CV</v-btn
       >
-      <v-btn class="amber darken-4 ml-5" rounded>Hire me</v-btn>
+      <v-btn class="amber darken-4 ml-5" rounded to="/contact"> Hire me</v-btn>
     </div>
   </div>
 </template>

@@ -6,43 +6,40 @@
           <h1 class="ml-3">Education</h1>
           <v-timeline dense>
             <v-timeline-item color="pink" small>
-              <h4>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-                veritatis dolor architecto incidunt saepe omnis in vitae, ipsa
-                alias minus ab eveniet quidem soluta dolorem modi dolorum
-                perferendis id fuga.
-              </h4>
+              <span class="title">
+                <u> BACHELOR OF TECHNOLOGY(CS)</u>
+              </span>
+              <div class="mt-7">
+                <p>
+                  GIANI ZAIL SINGH CAMPUS COLLEGE ENGINEERING & TECHNOLOGY ,
+                  BATHINDA(PUNJAB)
+                </p>
+                <p>YEAR : 2016- 2020</p>
+                <p>CGPA : 7.3</p>
+              </div>
             </v-timeline-item>
           </v-timeline>
 
           <v-timeline dense>
             <v-timeline-item color="pink" small>
-              <h4>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-                veritatis dolor architecto incidunt saepe omnis in vitae, ipsa
-                alias minus ab eveniet quidem soluta dolorem modi dolorum
-                perferendis id fuga.
-              </h4>
+              <span class="title">
+                <u> SECONDARY SCHOOL(XII) </u>
+              </span>
+              <div class="mt-7">
+                <p>GBSS SCHOOL KHIZERSARAI GAYA(BIHAR)</p>
+                <p>YEAR : 2016</p>
+                <p>CGPA/PERCENTAGE : 73%</p>
+              </div>
             </v-timeline-item>
           </v-timeline>
           <v-timeline dense>
             <v-timeline-item color="pink" small>
-              <h4>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-                veritatis dolor architecto incidunt saepe omnis in vitae, ipsa
-                alias minus ab eveniet quidem soluta dolorem modi dolorum
-                perferendis id fuga.
-              </h4>
-            </v-timeline-item>
-          </v-timeline>
-          <v-timeline dense>
-            <v-timeline-item color="pink" small>
-              <h4>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-                veritatis dolor architecto incidunt saepe omnis in vitae, ipsa
-                alias minus ab eveniet quidem soluta dolorem modi dolorum
-                perferendis id fuga.
-              </h4>
+              <span class="title">
+                <u> HIGH SCHOOL(X) </u>
+              </span>
+              <p>HIGH SCHOOL BUMUAR GAYA(BIHAR)</p>
+              <span>PASSING YEAR - 2013</span>
+              <p>CGPA/PERCENTAGE - 63%</p>
             </v-timeline-item>
           </v-timeline>
         </v-col>

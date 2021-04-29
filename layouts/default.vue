@@ -46,7 +46,7 @@
         </v-btn>
 
         <v-avatar size="30">
-          <img src="https://cdn.vuetifyjs.com/images/john.jpg" alt="John" />
+          <img src="/manish.png" />
         </v-avatar>
         <v-menu transition="slide-x-transition" bottom right offset-y>
           <template v-slot:activator="{ on, attrs }">

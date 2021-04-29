@@ -3,7 +3,7 @@
     <!-- image start  -->
     <v-row class="justify-center mt-16">
       <v-avatar size="250">
-        <img src="https://cdn.vuetifyjs.com/images/john.jpg" alt="John" />
+        <img src="/manish.png" width="100vh" height="100vh" />
       </v-avatar> </v-row
     ><!-- image end -->
 
