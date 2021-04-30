@@ -4,25 +4,33 @@
 
     <v-row class="mt-16">
       <v-col cols="12" sm="4" md="4">
-        <v-icon class="ml-16" size="50">mdi-phone</v-icon>
-        <div class="ml-10">
-          <h4 class="ml-7 mt-4">Call Us On</h4>
+        <v-avatar class="blue-grey lighten-3 ml-16" size="130">
+          <v-icon size="50">mdi-phone</v-icon>
+        </v-avatar>
+
+        <div class="ml-16">
+          <h3 class="ml-7 mt-4"><b>Call Us On</b></h3>
 
           <p>+91-7739251434</p>
         </div>
       </v-col>
       <v-col cols="12" sm="4" md="4">
-        <v-icon class="ml-16" size="50">mdi-email</v-icon>
+        <v-avatar class="blue-grey lighten-3" size="130">
+          <v-icon size="50">mdi-email</v-icon>
+        </v-avatar>
+
         <div>
-          <h4 class="ml-16 mt-4">E-mail</h4>
-          <span>manishkumar12118@gnail.com</span>
+          <h3 class="ml-10 mt-4"><b>E-mail</b></h3>
+          <p class="ml-n8">manishkumar12118@gnail.com</p>
         </div>
       </v-col>
       <v-col cols="12" sm="4" md="4">
-        <v-icon class="ml-16" size="50">mdi-linkedin</v-icon>
+        <v-avatar class="blue-grey lighten-3" size="130">
+          <v-icon class="" size="50">mdi-linkedin</v-icon>
+        </v-avatar>
         <div>
-          <h4 class="ml-16 mt-4">LinkedIn</h4>
-          <p>manish-kumar-2078101abs</p>
+          <h3 class=" ml-10 mt-4">LinkedIn</h3>
+          <p class="ml-n5">manish-kumar-2078101abs</p>
         </div>
       </v-col>
     </v-row>
@@ -51,7 +59,7 @@
         <v-col
           ><v-text-field
             label="Mobile Number"
-            v-model="number"
+            v-model="phone"
             prepend-inner-icon="mdi-phone"
             persistent-hint
             outlined
@@ -93,7 +101,7 @@ export default {
     return {
       name: "",
       email: "",
-      number: "",
+      phone: "",
       subject: "",
       message: ""
     };
@@ -103,7 +111,7 @@ export default {
       let data = {
         name: this.name,
         email: this.email,
-        number: this.number,
+        phone: this.phone,
         subject: this.subject,
         message: this.message
       };
@@ -121,4 +129,8 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped>
+.rounded-card {
+  border-radius: 150px;
+}
+</style>

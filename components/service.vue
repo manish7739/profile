@@ -5,7 +5,7 @@
         <v-card-title class="justify-center display-1">
           ALL RECORDS
         </v-card-title>
-        <v-simple-table>
+        <v-simple-table class="mt-15">
           <template v-slot:default>
             <thead>
               <tr>
@@ -25,9 +25,9 @@
                 <th class="text-left title">
                   Message
                 </th>
-                <th class="text-left title">
+                <!-- <th class="text-left title">
                   Delete
-                </th>
+                </th> -->
               </tr>
             </thead>
             <tbody>
@@ -35,9 +35,9 @@
                 <td>{{ item.name }}</td>
                 <td>{{ item.email }}</td>
                 <td>{{ item.subject }}</td>
-                <td>{{ item.number }}</td>
+                <td>{{ item.phone }}</td>
                 <td>{{ item.message }}</td>
-                <td>{{ item.delete }}</td>
+                <!-- <td>{{ item.delete }}</td> -->
               </tr>
             </tbody>
           </template>
