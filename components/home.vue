@@ -3,7 +3,7 @@
     <!-- image start  -->
     <v-row class="justify-center mt-16">
       <v-avatar size="250">
-        <img src="/manish.png" width="100vh" height="100vh" />
+        <v-img src="/manish.png" height="500px" width="40px"></v-img>
       </v-avatar> </v-row
     ><!-- image end -->
 

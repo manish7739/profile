@@ -22,7 +22,7 @@
         <v-icon class="ml-16" size="50">mdi-linkedin</v-icon>
         <div>
           <h4 class="ml-16 mt-4">LinkedIn</h4>
-          <p>manishkumar12118@gnail.com</p>
+          <p>manish-kumar-2078101abs</p>
         </div>
       </v-col>
     </v-row>
@@ -47,21 +47,34 @@
           ></v-text-field>
         </v-col>
       </v-row>
-      <v-text-field
-        label="Subject"
-        v-model="subject"
-        prepend-inner-icon="mdi-text-subject"
-        persistent-hint
-        outlined
-      ></v-text-field>
+      <v-row>
+        <v-col
+          ><v-text-field
+            label="Mobile Number"
+            v-model="number"
+            prepend-inner-icon="mdi-phone"
+            persistent-hint
+            outlined
+          ></v-text-field
+        ></v-col>
+        <v-col
+          ><v-text-field
+            label="Subject"
+            v-model="subject"
+            prepend-inner-icon="mdi-text-subject"
+            persistent-hint
+            outlined
+          ></v-text-field
+        ></v-col>
+      </v-row>
       <!-- <v-textarea
         color="black"
-        v-model="description"
+        v-model="message"
         label="description"
       ></v-textarea> -->
       <v-textarea
         outlined
-        v-model="description"
+        v-model="message"
         name="input-7-4"
         label="Message"
       ></v-textarea>
@@ -80,8 +93,9 @@ export default {
     return {
       name: "",
       email: "",
+      number: "",
       subject: "",
-      description: ""
+      message: ""
     };
   },
   methods: {
@@ -89,8 +103,9 @@ export default {
       let data = {
         name: this.name,
         email: this.email,
+        number: this.number,
         subject: this.subject,
-        description: this.description
+        message: this.message
       };
       console.log(data);
       contact.contact_us(data, (err, res) => {

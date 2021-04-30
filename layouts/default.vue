@@ -39,14 +39,14 @@
         <v-spacer />
         <!-- left side part start -->
         <v-btn icon>
-          <v-icon>mdi-home</v-icon>
+          <v-icon to="/home">mdi-home</v-icon>
         </v-btn>
         <v-btn icon>
           <v-icon>mdi-bell</v-icon>
         </v-btn>
 
         <v-avatar size="30">
-          <img src="/manish.png" />
+          <v-img src="/manish.png"></v-img>
         </v-avatar>
         <v-menu transition="slide-x-transition" bottom right offset-y>
           <template v-slot:activator="{ on, attrs }">

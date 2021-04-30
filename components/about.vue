@@ -17,8 +17,8 @@
     <v-row>
       <v-col
         cols="12"
-        sm="4"
         md="4"
+        sm="4"
         v-for="(item, index) in information"
         :key="index"
       >
@@ -33,22 +33,22 @@
       </v-col>
       <v-col
         cols="12"
-        sm="4"
-        md="4"
+        sm="5"
+        md="5"
         v-for="(item, index) in information"
         :key="index"
       >
-        <v-simple-table class="mt-16 ml-10">
+        <v-simple-table class="mt-16 ">
           <tbody>
-            <tr v-for="(item1, i) in item.info" :key="i">
+            <tr v-for="(item1, i) in info1" :key="i">
               <td>{{ item1.name }}</td>
               <td class="text-right">{{ item1.data }}</td>
             </tr>
           </tbody>
         </v-simple-table>
       </v-col>
-      <v-col cols="12" sm="4" md="4">
-        <v-simple-table class="mt-16 ml-10">
+      <v-col cols="12" sm="3" md="3">
+        <v-simple-table class="mt-16">
           <tbody>
             <tr v-for="(knows, i) in know" :key="i">
               <td>{{ knows.title }}</td>
@@ -89,6 +89,11 @@ export default {
             }
           ]
         }
+      ],
+      info1: [
+        { name: "Date of Birth", data: "7 march 1998" },
+        { name: "Email", data: "manishkumar12118@gmail.com" },
+        { name: "Mobile number", data: "7739251434" }
       ],
       know: [
         { title: "javaScript", per: "75%" },
