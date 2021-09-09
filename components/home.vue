@@ -8,7 +8,7 @@
     ><!-- image end -->
 
     <div class="text-center mt-5">
-      <h1>MANISH KUMAR</h1>
+      <h1>I'M MANISH KUMAR</h1>
       <h4>I'm a Web Developer</h4>
     </div>
     <!-- icons start -->
