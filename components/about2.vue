@@ -12,10 +12,11 @@
               <div class="mt-7">
                 <p>
                   GIANI ZAIL SINGH CAMPUS COLLEGE ENGINEERING & TECHNOLOGY ,
-                  BATHINDA(PUNJAB)
+                  BATHINDA
                 </p>
                 <p>YEAR : 2016- 2020</p>
                 <p>CGPA : 7.3</p>
+
               </div>
             </v-timeline-item>
           </v-timeline>
